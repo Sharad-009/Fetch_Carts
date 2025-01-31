@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="data_show.css" />
+  </head>
+  <body>
+    <div id="insertForm">
+      <form action="">
+        <label for=""><h3> NAME :</h3></label> <input type="tel" name="" id="name1" />
+        <br />
+        <label for=""><h3>COURCE :</h3></label> <input type="tel" name="" id="cource1" />
+        <br />
+        <label for=""><h3>IMGSRC :</h3></label> <input type="tel" name="" id="imgSrc1" />
+        <br />
+        <label for=""><h3>PRICE :</h3></label> <input type="tel" name="" id="price1" />
+        <br />
+        <button onclick="insertData()">Save Date</button>
+      </form>
+    </div>
+    <div id="container">
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Cource</th>
+            <th>Photos</th>
+            <th>Price</th>
+            <th>Edit</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+
+        <tbody id="container_table"></tbody>
+      </table>
+      <div id="showDataEdit"></div>
+    </div>
+
+    <!-- javascript link -->
+    <script src="data_show.js"></script>
+  </body>
+</html>

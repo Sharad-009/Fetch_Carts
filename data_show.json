@@ -1,0 +1,46 @@
+{
+  "personalInfo": [
+    {
+      "user": "Kavya Nair",
+      "course": "Machine Learning",
+      "imgSrc": "https://example.com/images/kavya.jpg",
+      "price": 900,
+      "id": "28c6"
+    },
+    {
+      "user": "Arjun Patil",
+      "course": "Blockchain Technology",
+      "imgSrc": "https://example.com/images/arjun.jpg",
+      "price": 1100,
+      "id": "211e"
+    },
+    {
+      "user": "Pooja Das",
+      "course": "Cloud Computing",
+      "imgSrc": "https://example.com/images/pooja.jpg",
+      "price": 950,
+      "id": "054f"
+    },
+    {
+      "user": "Vikram Malhotra",
+      "course": "Mobile App Development",
+      "imgSrc": "https://example.com/images/vikram.jpg",
+      "price": 700,
+      "id": "3957"
+    },
+    {
+      "user": "Ritika Chauhan",
+      "course": "Full Stack Development",
+      "imgSrc": "https://example.com/images/ritika.jpg",
+      "price": 850,
+      "id": "6b68"
+    },
+    {
+      "user": "puppy img",
+      "course": "UNKNOWN",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-C_UAhXq9GfuGO452EEzfbKnh1viQB9EDBQ&s",
+      "price": "1.45$",
+      "id": "43"
+    }
+  ]
+}

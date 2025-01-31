@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(181, 232, 215);
+}
+
+
+/* form styling */
+
+#insertForm{
+    width: 80vw;
+    
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+form{
+    margin-bottom: 30px;
+    background-color: rgb(248, 194, 60);
+    border: 2px solid red;
+    padding: 30px;
+}
+
+button{
+    width: 200px;
+    padding: 10px 60px;
+    margin-top: 30px;
+}
+input{
+    width: 280px;
+    height: 30px;
+    text-align: justify;
+    display: flex;
+}
+
+
+/* table styling */
+#container {
+  border: 2px solid red;
+  /* padding: 20px; */
+  width: 80vw;
+  height: 50vh;
+  overflow-y: scroll;
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+table {
+  width: 100vw;
+  border-collapse: collapse;
+}
+td {
+  text-align: center;
+  justify-self: center;
+ height: 80px;
+}
+td img {
+  width: 100px;
+}
+tr {
+  border: 2px solid gray;
+  height: 50px;
+}
+tr:nth-child(even){
+ background-color: rgb(107, 230, 252);
+}
+tr:nth-child(odd){
+ background-color: rgb(249, 249, 234);
+}
+thead tr:first-child{
+    background-color: rgb(61, 46, 147);
+    color: white;
+
+}
+
+/* edit form starts */
+#showDataEdit{
+
+    /* width: 40vw; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-inline: 1px; */
+}
+#showDataEdit form{
+    /* display: none; */
+    border: 2px solid red;
+    padding: 30px;
+}
+/* edit form ends */
